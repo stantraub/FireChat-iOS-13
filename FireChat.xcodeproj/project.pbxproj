@@ -14,6 +14,10 @@
 		1183342A24ABCEF50047CC55 /* FireChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1183342824ABCEF50047CC55 /* FireChat.xcdatamodeld */; };
 		1183342C24ABCEF70047CC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1183342B24ABCEF70047CC55 /* Assets.xcassets */; };
 		1183342F24ABCEF70047CC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1183342D24ABCEF70047CC55 /* LaunchScreen.storyboard */; };
+		1183344124ABCF800047CC55 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344024ABCF800047CC55 /* ConversationsController.swift */; };
+		1183344424AC12DA0047CC55 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344324AC12DA0047CC55 /* LoginController.swift */; };
+		1183344624AC12E30047CC55 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344524AC12E30047CC55 /* RegistrationController.swift */; };
+		1183344C24AC16B80047CC55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344B24AC16B80047CC55 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		1183342B24ABCEF70047CC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1183342E24ABCEF70047CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1183343024ABCEF70047CC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1183344024ABCF800047CC55 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		1183344324AC12DA0047CC55 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1183344524AC12E30047CC55 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		1183344B24AC16B80047CC55 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 		1183341E24ABCEF50047CC55 /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
+				1183343F24ABCF430047CC55 /* Model */,
+				1183343E24ABCF420047CC55 /* View */,
+				1183343B24ABCF330047CC55 /* ViewModel */,
+				1183343A24ABCF2C0047CC55 /* Controller */,
+				1183343924ABCF2A0047CC55 /* API */,
+				1183343624ABCF200047CC55 /* Utils */,
 				1183341F24ABCEF50047CC55 /* AppDelegate.swift */,
 				1183342124ABCEF50047CC55 /* SceneDelegate.swift */,
 				1183342324ABCEF50047CC55 /* ViewController.swift */,
@@ -68,6 +82,60 @@
 				1183342824ABCEF50047CC55 /* FireChat.xcdatamodeld */,
 			);
 			path = FireChat;
+			sourceTree = "<group>";
+		};
+		1183343624ABCF200047CC55 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1183344B24AC16B80047CC55 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1183343924ABCF2A0047CC55 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1183343A24ABCF2C0047CC55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1183344224AC12CB0047CC55 /* Authentication */,
+				1183344024ABCF800047CC55 /* ConversationsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1183343B24ABCF330047CC55 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1183343E24ABCF420047CC55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1183343F24ABCF430047CC55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1183344224AC12CB0047CC55 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1183344324AC12DA0047CC55 /* LoginController.swift */,
+				1183344524AC12E30047CC55 /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1183344624AC12E30047CC55 /* RegistrationController.swift in Sources */,
 				1183342424ABCEF50047CC55 /* ViewController.swift in Sources */,
+				1183344424AC12DA0047CC55 /* LoginController.swift in Sources */,
+				1183344C24AC16B80047CC55 /* Extensions.swift in Sources */,
 				1183342024ABCEF50047CC55 /* AppDelegate.swift in Sources */,
+				1183344124ABCF800047CC55 /* ConversationsController.swift in Sources */,
 				1183342224ABCEF50047CC55 /* SceneDelegate.swift in Sources */,
 				1183342A24ABCEF50047CC55 /* FireChat.xcdatamodeld in Sources */,
 			);
