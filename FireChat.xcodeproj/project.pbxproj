@@ -12,12 +12,15 @@
 		1183342424ABCEF50047CC55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183342324ABCEF50047CC55 /* ViewController.swift */; };
 		1183342724ABCEF50047CC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1183342524ABCEF50047CC55 /* Main.storyboard */; };
 		1183342A24ABCEF50047CC55 /* FireChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1183342824ABCEF50047CC55 /* FireChat.xcdatamodeld */; };
-		1183342C24ABCEF70047CC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1183342B24ABCEF70047CC55 /* Assets.xcassets */; };
 		1183342F24ABCEF70047CC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1183342D24ABCEF70047CC55 /* LaunchScreen.storyboard */; };
 		1183344124ABCF800047CC55 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344024ABCF800047CC55 /* ConversationsController.swift */; };
 		1183344424AC12DA0047CC55 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344324AC12DA0047CC55 /* LoginController.swift */; };
 		1183344624AC12E30047CC55 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344524AC12E30047CC55 /* RegistrationController.swift */; };
 		1183344C24AC16B80047CC55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344B24AC16B80047CC55 /* Extensions.swift */; };
+		1183344E24AD2C210047CC55 /* InputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344D24AD2C210047CC55 /* InputContainerView.swift */; };
+		1183345024AD307B0047CC55 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183344F24AD307B0047CC55 /* CustomTextField.swift */; };
+		1183345224AD40C50047CC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1183345124AD40C50047CC55 /* Assets.xcassets */; };
+		1183345424AD77B50047CC55 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183345324AD77B50047CC55 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +30,16 @@
 		1183342324ABCEF50047CC55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1183342624ABCEF50047CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1183342924ABCEF50047CC55 /* FireChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireChat.xcdatamodel; sourceTree = "<group>"; };
-		1183342B24ABCEF70047CC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1183342E24ABCEF70047CC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1183343024ABCEF70047CC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1183344024ABCF800047CC55 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		1183344324AC12DA0047CC55 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		1183344524AC12E30047CC55 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		1183344B24AC16B80047CC55 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
+		1183344D24AD2C210047CC55 /* InputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContainerView.swift; sourceTree = "<group>"; };
+		1183344F24AD307B0047CC55 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1183345124AD40C50047CC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		1183345324AD77B50047CC55 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,7 @@
 				1183342124ABCEF50047CC55 /* SceneDelegate.swift */,
 				1183342324ABCEF50047CC55 /* ViewController.swift */,
 				1183342524ABCEF50047CC55 /* Main.storyboard */,
-				1183342B24ABCEF70047CC55 /* Assets.xcassets */,
+				1183345124AD40C50047CC55 /* Assets.xcassets */,
 				1183342D24ABCEF70047CC55 /* LaunchScreen.storyboard */,
 				1183343024ABCEF70047CC55 /* Info.plist */,
 				1183342824ABCEF50047CC55 /* FireChat.xcdatamodeld */,
@@ -111,6 +117,7 @@
 		1183343B24ABCF330047CC55 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1183345324AD77B50047CC55 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,6 +125,8 @@
 		1183343E24ABCF420047CC55 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1183344D24AD2C210047CC55 /* InputContainerView.swift */,
+				1183344F24AD307B0047CC55 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1183342F24ABCEF70047CC55 /* LaunchScreen.storyboard in Resources */,
-				1183342C24ABCEF70047CC55 /* Assets.xcassets in Resources */,
+				1183345224AD40C50047CC55 /* Assets.xcassets in Resources */,
 				1183342724ABCEF50047CC55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,8 +220,11 @@
 			files = (
 				1183344624AC12E30047CC55 /* RegistrationController.swift in Sources */,
 				1183342424ABCEF50047CC55 /* ViewController.swift in Sources */,
+				1183345424AD77B50047CC55 /* LoginViewModel.swift in Sources */,
 				1183344424AC12DA0047CC55 /* LoginController.swift in Sources */,
 				1183344C24AC16B80047CC55 /* Extensions.swift in Sources */,
+				1183345024AD307B0047CC55 /* CustomTextField.swift in Sources */,
+				1183344E24AD2C210047CC55 /* InputContainerView.swift in Sources */,
 				1183342024ABCEF50047CC55 /* AppDelegate.swift in Sources */,
 				1183344124ABCF800047CC55 /* ConversationsController.swift in Sources */,
 				1183342224ABCEF50047CC55 /* SceneDelegate.swift in Sources */,
